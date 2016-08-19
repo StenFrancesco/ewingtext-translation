@@ -66,10 +66,12 @@ h1 {
   -moz-transform: translateX(-100%);
   -o-transform: translateX(-100%);
   -ms-transform: translateX(-100%);
+  transform: translateX(-100%);
   -webkit-transition: transform 0.8s ease-out;
   -moz-transition: transform 0.8s ease-out;
   -o-transition: transform 0.8s ease-out;
   -ms-transition: transform 0.8s ease-out;
+  transition: transform 0.8s ease-out;
   background: #757365;
   z-index: 1;
   text-align: center;
@@ -77,11 +79,23 @@ h1 {
 }
 
 .sidebar.open {
+  -webkit-transform: translateX(0);
+  -moz-transform: translateX(0);
+  -o-transform: translateX(0);
+  -ms-transform: translateX(0);
   transform: translateX(0);
 }
 
 .sidebar.close {
+  -webkit-transform: translateX(-100%);
+  -moz-transform: translateX(-100%);
+  -o-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
   transform: translateX(-100%);
+  -webkit-transition: transform 0.8s ease-out;
+  -moz-transition: transform 0.8s ease-out;
+  -o-transition: transform 0.8s ease-out;
+  -ms-transition: transform 0.8s ease-out;
   transition: transform 0.8s ease-out;
 }
 
@@ -346,10 +360,12 @@ hr.style19:after {
           -moz-transform: translateY(-100%);
           -o-transform: translateY(-100%);
           -ms-transform: translateY(-100%);
+          transform: translateY(-100%);
           -webkit-transition: transform 0.8s ease-out;
           -moz-transition: transform 0.8s ease-out;
           -o-transition: transform 0.8s ease-out;
           -ms-transition: transform 0.8s ease-out;
+          transition: transform 0.8s ease-out;
           background: #757365;
           z-index: 1;
           text-align: center;
@@ -389,10 +405,12 @@ hr.style19:after {
           -moz-transform: translateX(-100%);
           -o-transform: translateX(-100%);
           -ms-transform: translateX(-100%);
+          transform: translateX(-100%);
           -webkit-transition: transform 0.8s ease-out;
           -moz-transition: transform 0.8s ease-out;
           -o-transition: transform 0.8s ease-out;
           -ms-transition: transform 0.8s ease-out;
+          transition: transform 0.8s ease-out;
           background: #757365;
           z-index: 1;
           text-align: center;
@@ -421,10 +439,12 @@ hr.style19:after {
         -moz-transform: translateX(-100%);
         -o-transform: translateX(-100%);
         -ms-transform: translateX(-100%);
+        transform: translateX(-100%);
         -webkit-transition: transform 0.8s ease-out;
         -moz-transition: transform 0.8s ease-out;
         -o-transition: transform 0.8s ease-out;
         -ms-transition: transform 0.8s ease-out;
+        transition: transform 0.8s ease-out;
         background: #757365;
         z-index: 1;
         text-align: center;
@@ -452,10 +472,12 @@ hr.style19:after {
         -moz-transform: translateX(-100%);
         -o-transform: translateX(-100%);
         -ms-transform: translateX(-100%);
+        transform: translateX(-100%);
         -webkit-transition: transform 0.8s ease-out;
         -moz-transition: transform 0.8s ease-out;
         -o-transition: transform 0.8s ease-out;
         -ms-transition: transform 0.8s ease-out;
+        transition: transform 0.8s ease-out;
         background: #757365;
         z-index: 1;
         text-align: center;
