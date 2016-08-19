@@ -62,7 +62,15 @@ h1 {
   bottom: 0px;
   left: 0px;
   width: 160px;
+  -webkit-transform: translateX(-100%);
+  -moz-transform: translateX(-100%);
+  -o-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
   transform: translateX(-100%);
+  -webkit-transition: transform 0.8s ease-out;
+  -moz-transition: transform 0.8s ease-out;
+  -o-transition: transform 0.8s ease-out;
+  -ms-transition: transform 0.8s ease-out;
   transition: transform 0.8s ease-out;
   background: #757365;
   z-index: 1;
@@ -71,11 +79,23 @@ h1 {
 }
 
 .sidebar.open {
+  -webkit-transform: translateX(0);
+  -moz-transform: translateX(0);
+  -o-transform: translateX(0);
+  -ms-transform: translateX(0);
   transform: translateX(0);
 }
 
 .sidebar.close {
+  -webkit-transform: translateX(-100%);
+  -moz-transform: translateX(-100%);
+  -o-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
   transform: translateX(-100%);
+  -webkit-transition: transform 0.8s ease-out;
+  -moz-transition: transform 0.8s ease-out;
+  -o-transition: transform 0.8s ease-out;
+  -ms-transition: transform 0.8s ease-out;
   transition: transform 0.8s ease-out;
 }
 
@@ -199,6 +219,8 @@ hr.style17:after {
   font-size: 18px;
   -webkit-transform: rotate(90deg);
   -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
   transform: rotate(90deg);
 }
 
@@ -218,6 +240,8 @@ hr.style18:after {
   font-size: 18px;
   -webkit-transform: rotate(90deg);
   -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
   transform: rotate(90deg);
 }
 
@@ -237,6 +261,8 @@ hr.style19:after {
   font-size: 18px;
   -webkit-transform: rotate(90deg);
   -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
   transform: rotate(90deg);
 }
 
@@ -330,11 +356,21 @@ hr.style19:after {
           left: 0px;
           width: 100%;
           transform: translateY(-100%);
+          -webkit-transform: translateY(-100%);
+          -moz-transform: translateY(-100%);
+          -o-transform: translateY(-100%);
+          -ms-transform: translateY(-100%);
+          transform: translateY(-100%);
+          -webkit-transition: transform 0.8s ease-out;
+          -moz-transition: transform 0.8s ease-out;
+          -o-transition: transform 0.8s ease-out;
+          -ms-transition: transform 0.8s ease-out;
           transition: transform 0.8s ease-out;
           background: #757365;
           z-index: 1;
           text-align: center;
           font-family: Garamond;
+
         }
     }
 
@@ -365,7 +401,15 @@ hr.style19:after {
           bottom: 0px;
           left: 0px;
           width: 160px;
+          -webkit-transform: translateX(-100%);
+          -moz-transform: translateX(-100%);
+          -o-transform: translateX(-100%);
+          -ms-transform: translateX(-100%);
           transform: translateX(-100%);
+          -webkit-transition: transform 0.8s ease-out;
+          -moz-transition: transform 0.8s ease-out;
+          -o-transition: transform 0.8s ease-out;
+          -ms-transition: transform 0.8s ease-out;
           transition: transform 0.8s ease-out;
           background: #757365;
           z-index: 1;
@@ -391,7 +435,15 @@ hr.style19:after {
         bottom: 0px;
         left: 0px;
         width: 160px;
+        -webkit-transform: translateX(-100%);
+        -moz-transform: translateX(-100%);
+        -o-transform: translateX(-100%);
+        -ms-transform: translateX(-100%);
         transform: translateX(-100%);
+        -webkit-transition: transform 0.8s ease-out;
+        -moz-transition: transform 0.8s ease-out;
+        -o-transition: transform 0.8s ease-out;
+        -ms-transition: transform 0.8s ease-out;
         transition: transform 0.8s ease-out;
         background: #757365;
         z-index: 1;
@@ -416,7 +468,15 @@ hr.style19:after {
         bottom: 0px;
         left: 0px;
         width: 160px;
+        -webkit-transform: translateX(-100%);
+        -moz-transform: translateX(-100%);
+        -o-transform: translateX(-100%);
+        -ms-transform: translateX(-100%);
         transform: translateX(-100%);
+        -webkit-transition: transform 0.8s ease-out;
+        -moz-transition: transform 0.8s ease-out;
+        -o-transition: transform 0.8s ease-out;
+        -ms-transition: transform 0.8s ease-out;
         transition: transform 0.8s ease-out;
         background: #757365;
         z-index: 1;
