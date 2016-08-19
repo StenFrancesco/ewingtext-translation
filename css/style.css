@@ -1,0 +1,427 @@
+
+/*==================================================
+=                     Fonts                        =
+==================================================*/
+
+@font-face {
+  font-family: 'GS';
+  src: url('../fonts/font-gill-sans.woff');
+}
+
+@font-face {
+  font-family: 'Zapfino';
+  src: url('../fonts/zapfino.woff');
+}
+
+.zapfino {
+  font-family: 'Zapfino';
+}
+
+
+body { 
+  font-family: Garamond;
+  font-size: 20px;
+  background: #A4A290;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'GS';
+}
+
+h1 {
+  font-size: 50px;
+}
+
+.gs {
+  font-family: 'GS';
+}
+
+#contact-text {
+  color: #A4A290;
+}
+
+.contact-text {
+  color: #A4A290;
+}
+
+#about-text {
+  color: #A4A290;
+}
+
+
+
+/*==================================================
+=                 Sidebar/Navbar                   =
+==================================================*/
+
+.sidebar {
+  position: fixed;
+  top: 40px;
+  padding-top: 30px;
+  right: 0;
+  bottom: 0px;
+  left: 0px;
+  width: 160px;
+  transform: translateX(-100%);
+  transition: transform 0.8s ease-out;
+  background: #757365;
+  z-index: 1;
+  text-align: center;
+  font-family: Garamond;
+}
+
+.sidebar.open {
+  transform: translateX(0);
+}
+
+.sidebar.close {
+  transform: translateX(-100%);
+  transition: transform 0.8s ease-out;
+}
+
+.sidebar a.menulink:hover {
+  color: rgba(255,255,255,1);
+  text-decoration: none;
+}
+
+.sidebar a.menulink:visited {
+  text-decoration: none;
+  color: rgba(255,255,255,1);
+}
+
+.sidebar a.menulink:active {
+  text-decoration: none;
+  color: rgba(155,255,255,1);
+}
+
+.menulink {
+  text-decoration: none;
+  text-align: right;
+  color: rgba(255,255,255,0.6);
+  font-family: Garamond;
+  font-size: 20px;
+}
+
+/* .navbar-toggle {
+    position:relative;
+    float:right;
+    padding:9px 10px;
+    margin-top:8px;
+    margin-right:15px;
+    margin-bottom:8px;
+    background-image:none;
+    border:1px solid #444; 
+    border-radius:4px
+} */
+
+.navbar-default {
+  background: #757365;  
+  border: 0px;
+}
+
+.nav-toggle {
+  font-size: 16px;
+/*   padding-left: 50px;
+  padding-top: 15px; */
+  color: rgba(255,255,255,0.8);
+  text-shadow: 1px 1px black;
+}
+
+/*==================================================
+=                  Divs/containers                 =
+==================================================*/
+
+#row1, #row2, #row3 {
+  display: none;
+}
+
+#contactblock {
+  background-color: #585650;
+}
+
+.well {
+  background-color: #585650;
+  background-image: linear-gradient(to bottom,#585650 0,#585650 100%);
+  border: 0px;
+  border-color: #585650;
+
+}
+
+.alert {
+  display: none;
+}
+
+#about {
+  background-color: #2A1C1B;
+
+}
+
+#about-bg {
+  background: url('../img/book_focus_bg.jpg') no-repeat center center;
+  background-size: cover;
+  height: 650px;
+}
+
+.jumbotron {
+  margin-top: 50px;
+}
+
+
+
+/*==================================================
+=                 Horizontal Rule                  =
+==================================================*/
+
+hr { /* Bootstrap CSS has 20px 20px */
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+hr.gradient {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+}
+
+hr.style17 {
+  border-top: 1px solid #2A1C1B;
+  text-align: center;
+}
+
+hr.style17:after {
+  content: '§';
+  display: inline-block;
+  position: relative;
+  top: -16px;
+  padding: 0 10px;
+  background: #A4A290;
+  color: #2A1C1B;
+  font-size: 18px;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+hr.style18 {
+  border-top: 1px solid #A4A290;
+  text-align: center;
+}
+
+hr.style18:after {
+  content: '§';
+  display: inline-block;
+  position: relative;
+  top: -16px;
+  padding: 0 10px;
+  background: #2A1C1B;
+  color: #A4A290;
+  font-size: 18px;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+hr.style19 {
+  border-top: 1px solid #A4A290;
+  text-align: center;
+}
+
+hr.style19:after {
+  content: '§';
+  display: inline-block;
+  position: relative;
+  top: -16px;
+  padding: 0 10px;
+  background: #585650;
+  color: #A4A290;
+  font-size: 18px;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+/*==================================================
+=                       Random                     =
+==================================================*/
+
+
+.icon-bar {
+    display:block;
+    width:22px;
+    height:2px;
+    border-radius:1px;
+    border:1px solid #444;
+}
+
+.btn-link {
+  text-decoration: none;
+  border: 0px;
+  color: white;
+}
+
+.btn-link:hover {
+  color: white;
+  text-decoration: none;
+  border: 0px;
+
+}
+
+.btn-link:active {
+  color: white;
+  text-decoration: none;
+  border: 0px;
+}
+
+.btn-dark {
+  background-color: #2A1C1B
+  color: black;
+  width: 242px;
+
+}
+
+.control-label {
+  color: #A4A290;
+  font-family: Garamond;
+}
+
+
+.projects-bg {
+  background-color: #757365;
+}
+
+
+#typewriter-logo {
+  height: 25px;
+  margin-top: 12px;
+  margin-left: 5px;
+}
+
+#ewing-text {
+  width: auto;
+  height: 50px;
+  margin-top: -12px;
+}
+
+
+
+
+/*==================================================
+=            Bootstrap 3 Media Queries             =
+==================================================*/
+
+
+    /*==========  Mobile First Method  ==========*/
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (min-width : 320px) {
+
+      .jumbotron {
+        background: url('../img/typewriter4-xs.jpg') no-repeat center center;
+        background-size: cover;
+        height: 163px;
+        }
+
+        .sidebar {
+          position: fixed;
+          top: 40px;
+          padding-top: 30px;
+          right: 0;
+          bottom: 0px;
+          left: 0px;
+          width: 100%;
+          transform: translateY(-100%);
+          transition: transform 0.8s ease-out;
+          background: #757365;
+          z-index: 1;
+          text-align: center;
+          font-family: Garamond;
+        }
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (min-width : 480px) {
+
+      .jumbotron {
+        background: url('../img/typewriter4-s.jpg') no-repeat center center;
+        background-size: cover;
+        height: 246px;
+        }
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+
+      .jumbotron {
+        background: url('../img/typewriter4-m.jpg') no-repeat center center;
+        background-size: cover;
+        height: 310px;
+        }
+
+        .sidebar {
+          position: fixed;
+          top: 40px;
+          padding-top: 30px;
+          right: 0;
+          bottom: 0px;
+          left: 0px;
+          width: 160px;
+          transform: translateX(-100%);
+          transition: transform 0.8s ease-out;
+          background: #757365;
+          z-index: 1;
+          text-align: center;
+          font-family: Garamond;
+        }
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+
+    .jumbotron {
+      background: url('../img/typewriter4-l.jpg') no-repeat center center;
+      background-size: cover;
+      height: 400px;
+      }
+
+      .sidebar {
+        position: fixed;
+        top: 40px;
+        padding-top: 30px;
+        right: 0;
+        bottom: 0px;
+        left: 0px;
+        width: 160px;
+        transform: translateX(-100%);
+        transition: transform 0.8s ease-out;
+        background: #757365;
+        z-index: 1;
+        text-align: center;
+        font-family: Garamond;
+      }
+    }
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+
+    .jumbotron {
+      background: url('../img/typewriter4-xl.jpg') no-repeat center center;
+      background-size: cover;
+      height: 600px;
+      }
+      .sidebar {
+        position: fixed;
+        top: 40px;
+        padding-top: 30px;
+        right: 0;
+        bottom: 0px;
+        left: 0px;
+        width: 160px;
+        transform: translateX(-100%);
+        transition: transform 0.8s ease-out;
+        background: #757365;
+        z-index: 1;
+        text-align: center;
+        font-family: Garamond;
+      }
+    }
+
