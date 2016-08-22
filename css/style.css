@@ -186,6 +186,10 @@ h1 {
   margin-top: 50px;
 }
 
+.thumbnail {
+  background-color: #A4A290;
+  border: 0;
+}
 
 
 /*==================================================
@@ -370,7 +374,10 @@ hr.style19:after {
           z-index: 1;
           text-align: center;
           font-family: Garamond;
+        }
 
+        .rowbutton {
+          width: 100%;
         }
     }
 
@@ -381,6 +388,10 @@ hr.style19:after {
         background: url('../img/typewriter4-s.jpg') no-repeat center center;
         background-size: cover;
         height: 246px;
+        }
+
+        .rowbutton {
+          width: 100%;
         }
     }
 
@@ -416,6 +427,10 @@ hr.style19:after {
           text-align: center;
           font-family: Garamond;
         }
+
+        .rowbutton {
+          width: 50%;
+        }
     }
 
     /* Medium Devices, Desktops */
@@ -450,6 +465,9 @@ hr.style19:after {
         text-align: center;
         font-family: Garamond;
       }
+        .rowbutton {
+          width: 25%;
+        }
     }
 
     /* Large Devices, Wide Screens */
@@ -483,5 +501,9 @@ hr.style19:after {
         text-align: center;
         font-family: Garamond;
       }
+
+        .rowbutton {
+          width: 25%;
+        }
     }
 
